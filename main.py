@@ -1,6 +1,6 @@
 import discord
 import asyncio
-from livevraxx.modules.env import env_variable
+from LIVE_Vraxx.modules.env import env_variable
 
 intents = discord.Intents().all()
 bot = discord.Client(intents=intents)
