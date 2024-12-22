@@ -48,8 +48,8 @@ async def on_message(message):
         # Send a Twitch link in the newly created channel
         await new_channel.send(f"https://www.twitch.tv/{streamer_name}")
 
-        # Wait for 7200 seconds (2 hours)
-        await asyncio.sleep(7200)
+        # Wait for 10800 seconds (3 hours)
+        await asyncio.sleep(10800)
 
         # Delete the newly created channel after 7200 seconds
         await new_channel.delete()
